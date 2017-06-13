@@ -41,6 +41,11 @@ infix fun Int.inc(numero: Int): Int = this+numero
 tailrec fun findFixPoint(x: Double = 1.0): Double
         = if (x == Math.cos(x)) x else findFixPoint(Math.cos(x))
 
+fun String.toInt(): Int?
+{
+   return this.toIntOrNull()
+}
+
 //Função principal
 fun main(args: Array<String>)
 {
