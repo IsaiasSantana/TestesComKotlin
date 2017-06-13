@@ -70,7 +70,7 @@ fun main(args: Array<String>)
     println(int())
 
     val teste = Teste("LOG")
-    teste.log = "simone"
+    teste.log = "log"
 
     imprimeTextoPassado("Isaías"){
         testeCallback("Isaías")
