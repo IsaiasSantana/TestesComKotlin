@@ -32,6 +32,11 @@ fun main(args: Array<String>)
         println("Contato encontrado, nome = ${contato.nome}")
     }
 
+    val x = 100
+    val a: Int? = x
+    val b: Int? = x
+    println(a === b)
+
 }
 
 fun imprimeContatos(usuario: Usuario)
